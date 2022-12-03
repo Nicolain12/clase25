@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "name": "Nicolas",
+        "email": "nico@mail.com",
+        "password": "$2a$10$/bfSUGQBFoYkuzC6fvCRUeKiIBlvwsKe/VmTZMIDTwYcqrOEXNbRO",
+        "color": "blue"
+    },
+    {
+        "id": 2,
+        "name": "Vicky",
+        "email": "vi@mail.com",
+        "password": "$2a$10$CT4U3SmteeDLBYPwcaV0.eOCPuMsspZb.y/8jjKmbAu.qbwiazB6a",
+        "color": "red"
+    },
+    {
+        "id": 3,
+        "name": "yago",
+        "email": "yaguito@mail.com",
+        "password": "$2a$10$3llzUuHvapRcvZHcb7DGietQ/gjS1dPdW4Coi5.dFPl8Kqz1H2v0m",
+        "color": "green"
+    },
+    {
+        "id": 4,
+        "name": "Nacho",
+        "email": "nachi@mail.com",
+        "password": "$2a$10$2JDgnXgv9glwzXE9Wx0D2.B1oCLge5Uz4ofb79jpGhQZrFEo4EQV.",
+        "color": "red"
+    },
+    {
+        "id": 5,
+        "name": "Facu",
+        "email": "fa@mail.com",
+        "password": "$2a$10$hefRUiKo6dWyEoB0UA9OGuwsLbiJZjWAIHd4bBFhSK/k.FkbMSgOC",
+        "color": "red"
+    },
+    {
+        "id": 6,
+        "name": "laura",
+        "email": "lau@mail.com",
+        "password": "$2a$10$dbV2RBms.BbbpsSRW5sf6OHxtca7KHtq9a36Dz2U511l.c/zAYeVS",
+        "color": "red"
+    },
+    {
+        "id": 7,
+        "name": "revi",
+        "email": "re@mail.com",
+        "password": "$2a$10$L541dDrpLh9rsl1IQfhtrO/dKDs8CGZmVt0gcbXSU0S0ZmS.7Jv2.",
+        "color": "red"
+    },
+    {
+        "id": 8,
+        "name": "pablo",
+        "email": "lain@mail.com",
+        "password": "$2a$10$PQFspPUSCmfByORUFX5mXu4WOalPFSbGk9TV4Ah.0pYbXhuovNVIS",
+        "color": "red"
+    },
+    {
+        "id": 9,
+        "name": "elsa",
+        "email": "elsa@mail.com",
+        "password": "$2a$10$6Xv3QsKsCrOALuV2SGR6texjUhfYTUjcH9LcqUTH948R/Ytl82wJS",
+        "color": "black"
+    }
+]

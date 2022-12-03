@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/css/app.css">
+    <title>Document</title>
+</head>
+
+
+<body>
+    
+    <form action="/registerSubmit" method="POST">
+        <div>
+            <label for="name">Ingrese su nombre:</label>
+            <input type="text" id="name" name="name" >
+        </div>
+        
+        <div>
+            <label for="email">Ingrese un Email</label>
+            <input type="email" id="email" name="email" >
+            <% if (locals.errors && errors.email) { %>
+                <p style="color: red;"><%= errors.email.msg %> </p>
+               <% } %>
+        </div>
+        <div>
+            <label for="password">Ingrese su contraseña:</label>
+            <input type="password" id="password" name="password" >
+        </div>
+        <div>
+            <label for="passwordConfirm">Confirme su contraseña:</label>
+            <input type="password" id="passwordConfirm" name="passwordConfirm" >
+            <% if (locals.errors && errors.passwordConfirm) { %>
+             <p style="color: red;"><%= errors.passwordConfirm.msg %> </p>
+            <% } %>
+        </div>
+        <div>
+            <label for="color">Ingrese un color</label>
+            <select  id="color"  name="color" >
+                <option value="red">Rojo</option>
+                <option value="blue">Azul</option>
+                <option value="green">Verde</option>
+                <option value="black">Negro</option>
+            </select>
+        </div>
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+</body>
+</html>

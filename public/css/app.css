@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+/* login.ejs */
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5%;
+}
+div{
+  width: 80%;
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 1px gray;
+
+}
+div label{
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+div input{
+  margin-bottom: 2%;
+}
+div select{
+  margin-bottom: 2%;
+}
+div button{
+  margin-top: 5%;
+  margin-bottom: 2%;
+
+}
